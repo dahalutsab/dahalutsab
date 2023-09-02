@@ -27,7 +27,7 @@ I am currently in my third semester of pursuing a BCA degree at Aadim National C
   </a>
 </p>
 
-🌱 I’m currently learning **Java, JavaScript**
+🌱 I’m currently learning **Java**
 
 <div align="center">
   <img src="https://media1.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif?cid=ecf05e47nfu7ymzz7qewvmkj26apnb8ycdlqnv06xfwiyojh&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="Image" />
