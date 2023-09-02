@@ -5,17 +5,16 @@
 <p align="center"> <a href="https://twitter.com/utsabdahal11" target="blank"><img src="https://img.shields.io/twitter/follow/utsabdahal11?logo=twitter&style=for-the-badge" alt="utsabdahal11" /></a> </p>
 
 <div align="center">
-  <ul>
-    <li>📫 How to reach me **dlutsab2120@gmail.com**</li>
-    <li>📄 Know about me [https://www.dahalutsab.com.np](https://www.dahalutsab.com.np)</li>
+
+    📫 How to reach me **dlutsab2120@gmail.com**
+    📄 Know about me [https://www.dahalutsab.com.np](https://www.dahalutsab.com.np)
     <h3 align="center">Connect with me:</h3>
     <p align="center">
     <a href="https://twitter.com/utsabdahal11" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="utsabdahal11" height="30" width="40" /></a>
     <a href="https://linkedin.com/in/utsab dahal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="utsab dahal" height="30" width="40" /></a>
     <a href="https://instagram.com/myself.utsab" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="myself.utsab" height="30" width="40" /></a>
     </p>
-    <li> 🌱 I’m currently learning **Java, JavaScript**</li>
-  </ul>
+     🌱 I’m currently learning **Java, JavaScript**
 
 
 
