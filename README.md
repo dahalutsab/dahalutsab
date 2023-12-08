@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm Utsab Dahal
 
-I am currently in my third semester of pursuing a BCA degree at Aadim National College.
+I am currently in my  Fourth semester of pursuing a BCA degree at Aadim National College.
 
 <p align="center">
   <a href="https://twitter.com/utsabdahal11" target="_blank">
