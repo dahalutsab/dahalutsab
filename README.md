@@ -57,6 +57,4 @@ I am currently in my  Fourth semester of pursuing a BCA degree at Aadim National
   </p>
 </div>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=dahalutsab&show_icons=true&locale=en&layout=compact)
-
 </div>
