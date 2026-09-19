@@ -1,0 +1,46 @@
+name: telemetry
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"      # twice a day
+  workflow_dispatch:              # "Run workflow" button in the Actions tab
+  push:
+    paths:
+      - ".github/scripts/telemetry.py"
+      - ".github/workflows/telemetry.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install fonttools
+
+      - name: Generate telemetry panels
+        run: python .github/scripts/telemetry.py
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          # Optional: add a classic PAT with `read:user` as a repo secret named STATS_TOKEN
+          # to count private contributions. Falls back to the built-in token.
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/telemetry-dark.svg assets/telemetry-light.svg
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh telemetry panels"
+            git push
+          fi
